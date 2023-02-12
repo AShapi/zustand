@@ -4,6 +4,8 @@ import { act, render, waitFor } from '@testing-library/react'
 import { create } from 'zustand'
 import { createJSONStorage, persist } from 'zustand/middleware'
 
+console.log('lol')
+
 const createPersistantStore = (initialValue: string | null) => {
   let state = initialValue
 
